@@ -1,0 +1,24 @@
+{
+    "name": "thaitrandng/priapi",
+    "description": "Make API document",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "thaitrandng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PriAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "PriAPI\\Providers\\PriApiServiceProvider"
+          ]
+        }
+    }
+}
